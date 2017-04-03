@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="D:\projects\ud851-Sunshine\FanTv\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\10.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="eb0d830e3eabb9deb9ec44869cf7ac7ea1ad794c">
+        <dex dex="D:\projects\ud851-Sunshine\FanTv\app\build\intermediates\pre-dexed\release\com.google.firebase-firebase-common-10.0.1_e1c11994f87da2b5eacd7e651d15fb2c27016c5e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\projects\ud851-Sunshine\FanTv\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\10.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6116e0e7069de7fc259aac8e08b84f32c2038231">
+        <dex dex="D:\projects\ud851-Sunshine\FanTv\app\build\intermediates\pre-dexed\release\com.google.firebase-firebase-analytics-impl-10.0.1_f7a88a07ee7d9748aa1c3c2df8001ef1708c3ed1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\projects\ud851-Sunshine\FanTv\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b266c8faa5af72e579b9da36ef35053ffed6ac64">
+        <dex dex="D:\projects\ud851-Sunshine\FanTv\app\build\intermediates\pre-dexed\release\com.android.support-recyclerview-v7-25.1.0_35ce9b9454afaf6867b66c9e7d0cc05887d85a65.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\projects\ud851-Sunshine\FanTv\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
+        <dex dex="D:\projects\ud851-Sunshine\FanTv\app\build\intermediates\pre-dexed\release\com.android.support-support-compat-25.1.0_9734002ad8de36d4ca676c64bd24a452e9d6fbf8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\projects\ud851-Sunshine\FanTv\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6fb6ac3e8d3b9013819920d9ea11f3803c4c0033">
+        <dex dex="D:\projects\ud851-Sunshine\FanTv\app\build\intermediates\pre-dexed\release\com.android.support-animated-vector-drawable-25.1.0_57420acc637cf5e3d4f43155c37f11c69e4612c7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\projects\ud851-Sunshine\FanTv\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="D:\projects\ud851-Sunshine\FanTv\app\build\intermediates\pre-dexed\release\com.android.support-support-v4-25.1.0_de8cd10e15af090e17de8c9c65142ca9e7536b64.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Radha_acharya\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="D:\projects\ud851-Sunshine\FanTv\app\build\intermediates\pre-dexed\release\picasso-2.5.2_89d00f14e6e128931ad372d7ba027d009abffd89.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\projects\ud851-Sunshine\FanTv\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
+        <dex dex="D:\projects\ud851-Sunshine\FanTv\app\build\intermediates\pre-dexed\release\com.android.support-support-fragment-25.1.0_31c80fa92dee897fa65f0e059da9cd09e8fd2d34.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\projects\ud851-Sunshine\FanTv\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="aee64634871d88a419d59eb743c1258a60f19700">
+        <dex dex="D:\projects\ud851-Sunshine\FanTv\app\build\intermediates\pre-dexed\release\com.android.support-support-core-ui-25.1.0_f90bb09b87371a29f617ba32b8957afa1ea0f91d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\projects\ud851-Sunshine\FanTv\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gass\10.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="57c2eceb8548de84509d1ebc293fedec53231f6c">
+        <dex dex="D:\projects\ud851-Sunshine\FanTv\app\build\intermediates\pre-dexed\release\com.google.android.gms-play-services-gass-10.0.1_0ab52c690e640d6c3573df410a88057184e0864d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\projects\ud851-Sunshine\FanTv\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth-base\10.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e96c6974cf924e7ee3b230e6847d5731423388c9">
+        <dex dex="D:\projects\ud851-Sunshine\FanTv\app\build\intermediates\pre-dexed\release\com.google.android.gms-play-services-auth-base-10.0.1_63f97ed7ded7ea209dee16edee810b2044ee9a2d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\projects\ud851-Sunshine\FanTv\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\25.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7f2420506110902f033406b25697cf97ee8c38b2">
+        <dex dex="D:\projects\ud851-Sunshine\FanTv\app\build\intermediates\pre-dexed\release\com.android.support-cardview-v7-25.1.0_b5eb68b354c4b2ff0346cdee6bab90e7e50dd577.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\projects\ud851-Sunshine\FanTv\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e79aa3d9a16f8c9f16377c0608de70a8f31e5d80">
+        <dex dex="D:\projects\ud851-Sunshine\FanTv\app\build\intermediates\pre-dexed\release\com.android.support-support-vector-drawable-25.1.0_f81b8f5a615d38ff17740a9178fe729958b65592.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\projects\ud851-Sunshine\FanTv\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1630658fbc2d222b988603c27b4a4249586fbfe7">
+        <dex dex="D:\projects\ud851-Sunshine\FanTv\app\build\intermediates\pre-dexed\release\com.android.support-appcompat-v7-25.1.0_93449288f8c543147599a026735483c289d56c69.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\projects\ud851-Sunshine\FanTv\app\build\intermediates\exploded-aar\com.firebase\firebase-jobdispatcher\0.5.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a7d1d5f89815c94a839ffd4de5f083f5e166d9a5">
+        <dex dex="D:\projects\ud851-Sunshine\FanTv\app\build\intermediates\pre-dexed\release\com.firebase-firebase-jobdispatcher-0.5.0_ae4ffa495b0650dac307e7a02f07aa2e3beb3e92.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\projects\ud851-Sunshine\FanTv\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\10.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="486371f97baad8e607f332f20fee1d3dd00a731a">
+        <dex dex="D:\projects\ud851-Sunshine\FanTv\app\build\intermediates\pre-dexed\release\com.google.firebase-firebase-iid-10.0.1_ecaf99619cb7aae090d918b2283d489c032ef916.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\projects\ud851-Sunshine\FanTv\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\10.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="433f4d6aa5f21f19552afe0e6c5eff0fedba73ad">
+        <dex dex="D:\projects\ud851-Sunshine\FanTv\app\build\intermediates\pre-dexed\release\com.google.firebase-firebase-analytics-10.0.1_366f93d186a20efa55b94df15327fe0266468ef7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\projects\ud851-Sunshine\FanTv\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f02263e35e52668dd17b73bf961437e3d562b35f">
+        <dex dex="D:\projects\ud851-Sunshine\FanTv\app\build\intermediates\pre-dexed\release\com.android.support-support-media-compat-25.1.0_cfbeb8fbb1c25673e63be917499b5e76672ea610.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\projects\ud851-Sunshine\FanTv\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\10.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="25438f55fc6d906a0e72f30b21487541430ede43">
+        <dex dex="D:\projects\ud851-Sunshine\FanTv\app\build\intermediates\pre-dexed\release\com.google.android.gms-play-services-base-10.0.1_1847ba41272120b90b2126ca28cd4171f74e3299.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\projects\ud851-Sunshine\FanTv\app\build\intermediates\exploded-aar\com.android.support\design\25.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="30103d98fa5ed824b54af839c85e2111f9bde8ec">
+        <dex dex="D:\projects\ud851-Sunshine\FanTv\app\build\intermediates\pre-dexed\release\com.android.support-design-25.1.0_b76a9caeb2a4578d17ac85232c1348a0b27923a6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\projects\ud851-Sunshine\FanTv\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\10.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e2185aff89caeb337b1ffc36d5e525d8318e7cfe">
+        <dex dex="D:\projects\ud851-Sunshine\FanTv\app\build\intermediates\pre-dexed\release\com.google.android.gms-play-services-auth-10.0.1_2186412b2a52d77a303410e147895d0072c5ff9a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\platforms\extras\android\m2repository\com\android\support\support-annotations\25.1.0\support-annotations-25.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="64cb6b229a8bdfd907bc8dd46839a0053e4c018d">
+        <dex dex="D:\projects\ud851-Sunshine\FanTv\app\build\intermediates\pre-dexed\release\support-annotations-25.1.0_f2cfc50eddf09f20b24c13a6d06d31a8fcf91883.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\projects\ud851-Sunshine\FanTv\app\build\intermediates\exploded-aar\com.android.volley\volley\1.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2cd4b982617e544728de0782d718a58ce1b06e3f">
+        <dex dex="D:\projects\ud851-Sunshine\FanTv\app\build\intermediates\pre-dexed\release\com.android.volley-volley-1.0.0_5c37b543337b4073dd7e9ece2bad9a669987591d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Radha_acharya\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife-annotations\8.4.0\ea392375cf9ff59234a82e7928a204215ccc98cd\butterknife-annotations-8.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ea392375cf9ff59234a82e7928a204215ccc98cd">
+        <dex dex="D:\projects\ud851-Sunshine\FanTv\app\build\intermediates\pre-dexed\release\butterknife-annotations-8.4.0_2f00732d0588b87495f531fdf80e14451bff9e23.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\projects\ud851-Sunshine\FanTv\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-clearcut\10.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1d193729baf37df3d902a423291423a0df7e3779">
+        <dex dex="D:\projects\ud851-Sunshine\FanTv\app\build\intermediates\pre-dexed\release\com.google.android.gms-play-services-clearcut-10.0.1_0dccb0b46cedb2005987423730199fcdf8c1ecc2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\projects\ud851-Sunshine\FanTv\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
+        <dex dex="D:\projects\ud851-Sunshine\FanTv\app\build\intermediates\pre-dexed\release\com.android.support-support-core-utils-25.1.0_0c2d54a58079d13bd5317bc8da827a2f26ecaa2f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\projects\ud851-Sunshine\FanTv\app\build\intermediates\exploded-aar\com.jakewharton\butterknife\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a07818a1ecabdb149998823429cce555af4b9cba">
+        <dex dex="D:\projects\ud851-Sunshine\FanTv\app\build\intermediates\pre-dexed\release\com.jakewharton-butterknife-8.4.0_53feb496425c7b6d17735a59c8dfe26ff1ed0741.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\projects\ud851-Sunshine\FanTv\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads-lite\10.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b955cb3a1ad6f1b6ff728ce1e0cd592c1717b440">
+        <dex dex="D:\projects\ud851-Sunshine\FanTv\app\build\intermediates\pre-dexed\release\com.google.android.gms-play-services-ads-lite-10.0.1_38bc4c4cb45a24e68296469b271bcd7806f44bf2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\projects\ud851-Sunshine\FanTv\app\build\intermediates\exploded-aar\com.android.support\transition\25.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d38084015027549951cbaea5d5f6fb795cc81151">
+        <dex dex="D:\projects\ud851-Sunshine\FanTv\app\build\intermediates\pre-dexed\release\com.android.support-transition-25.1.0_d8837b94f16fb31183fda26b4d896fd4e11c91f0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\projects\ud851-Sunshine\FanTv\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\10.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6addaba208e21c6da776d0ca75b6b23a6ccd5499">
+        <dex dex="D:\projects\ud851-Sunshine\FanTv\app\build\intermediates\pre-dexed\release\com.google.android.gms-play-services-tasks-10.0.1_e6a1999512ce27c172796a4a14c1a19111842f50.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\projects\ud851-Sunshine\FanTv\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\10.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="756f6297eef79784f5e356dcd4f39865028b2bd0">
+        <dex dex="D:\projects\ud851-Sunshine\FanTv\app\build\intermediates\pre-dexed\release\com.google.android.gms-play-services-basement-10.0.1_f3d9576c1d34d62b228c26c605778e826f83caea.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\projects\ud851-Sunshine\FanTv\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\10.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d0460bf07cc3657e0be518ca01c174493951c6b8">
+        <dex dex="D:\projects\ud851-Sunshine\FanTv\app\build\intermediates\pre-dexed\release\com.google.android.gms-play-services-ads-10.0.1_f0f3805b88c25781b2f2c05ee8e4ce33c1974c4d.jar" />
+    </item>
+
+</items>
