@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.example.kvoththebloodless.fantv.DynamicHeightNetworkImageView
+        android:id="@+id/popularpic"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.example.kvoththebloodless.fantv.DynamicHeightNetworkImageView
+        android:id="@+id/popularpicgradient"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/gradient" />
+
+    <android.support.v7.widget.SwitchCompat
+        android:id="@+id/addfav"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="@dimen/material_layout_keylines_screen_edge_margin" />
+
+    <ImageButton
+        android:id="@+id/infoo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="@dimen/material_layout_keylines_screen_edge_margin"
+        android:background="@drawable/ic_info_white_24dp"
+        android:contentDescription="@string/press_for_more_information" />
+
+    <TextView
+        android:id="@+id/nameofshow"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_margin="@dimen/material_layout_keylines_screen_edge_margin"
+        android:text="@string/game_of_thrones"
+        android:textAppearance="@style/Title"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/genre"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="@dimen/material_layout_keylines_screen_edge_margin"
+        android:text="@string/tv_ma"
+        android:textAppearance="@style/body"
+        android:textColor="@color/cardview_light_background" />
+
+    <FrameLayout
+        android:id="@+id/overlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/icons"
+        android:visibility="gone">
+
+        <include
+            layout="@layout/overlay"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </FrameLayout>
+
+</RelativeLayout><!--<FrameLayout--><!--xmlns:android="http://schemas.android.com/apk/res/android"--><!--xmlns:app="http://schemas.android.com/apk/res-auto"--><!--android:layout_width="match_parent"--><!--android:layout_height="wrap_content"-->
+
+    <!--&gt;-->
+
+    <!--<RelativeLayout--><!--android:layout_width="match_parent"--><!--android:layout_height="wrap_content"-->
+
+
+    <!--&gt;--><!---->
+
+
+    <!--<RelativeLayout--><!--android:layout_width="match_parent"--><!--android:layout_height="wrap_content"--><!--&gt;-->
+
+    <!--<com.example.kvoththebloodless.fantv.DynamicHeightNetworkImageView--><!--android:layout_width="match_parent"--><!--android:layout_height="match_parent"--><!--android:id="@+id/popularpic"/>-->
+
+
+    <!--</RelativeLayout>-->
+
+
+    <!--/>-->
+
+    <!--</RelativeLayout>--><!--<FrameLayout--><!--android:layout_width="wrap_content"--><!--android:layout_height="wrap_content"--><!--android:translationZ="@dimen/cardview_default_elevation"--><!--android:layout_gravity="start|bottom"--><!--android:layout_marginBottom="25dp">-->
+
+
+    <!--</FrameLayout>-->
+
+
+    <!--</FrameLayout>-->

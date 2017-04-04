@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Popular">
+
+    <item
+        android:id="@+id/spinner"
+        android:title="@string/select_your_choice"
+        app:actionViewClass="android.support.v7.widget.AppCompatSpinner"
+        app:showAsAction="always" />
+    <item
+        android:title="@string/favourite_movies"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_account"
+        android:title="@string/my_account"
+        app:showAsAction="never" />
+
+</menu>

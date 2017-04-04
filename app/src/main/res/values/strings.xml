@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">FanTv</string>
+    <string name="initsync">yes</string>
+    <string name="banner_ad_unit_id">ca-app-pub-1229937909641908/2274866273</string>
+    <string name="pref_package">com.example.kvoththebloodless.fantv</string>
+    <string name="is_signed_in">isSignedIn</string>
+    <string name="user_displayName">user_displayName</string>
+    <string name="user_email">user_email</string>
+    <string name="user_ID">user_ID</string>
+    <string name="user_photo">user_photo</string>
+    <string name="sign_in_error">Error Signing you in</string>
+    <string name="name_ph">"Name : %s"</string>
+    <string name="email_ph">Email: %s</string>
+    <string name="user_id_ph">User ID: %s</string>
+    <string name="select_your_choice">Select your choice</string>
+    <string name="favourite_movies">Favourite movies</string>
+    <string name="welcome_to_fantv">Welcome to FanTv</string>
+    <string name="my_account">My Account</string>
+    <string name="no_shows_to_display">NO SHOWS TO DISPLAY</string>
+    <string name="sign_in_with_google">Sign In With Google</string>
+    <string name="profile_picture">Profile Picture</string>
+    <string name="_7_8">7.8</string>
+    <string name="game_of_thrones">Game of thrones</string>
+    <string name="tv_ma">TV|MA</string>
+    <string name="log_out">Log out</string>
+    <string name="watched">Watched</string>
+    <string name="popular_url">https://api.themoviedb.org/3/tv/popular?api_key=%s&amp;language=en-US&amp;page=1</string>
+    <string name="Popular_TAG">popular</string>
+    <string name="tvdb_login">https://api.thetvdb.com/login</string>
+    <string name="KEY_RESULT">results</string>
+    <string name="tmdb_id">id</string>
+    <string name="Popular_Detailed">https://api.themoviedb.org/3/tv/%1$d?api_key=%2$s&amp;language=en-US"</string>
+    <string name="id">id</string>
+    <string name="url_tmdb">https://api.themoviedb.org/3/tv/</string>
+    <string name="press_for_more_information">Press for more Information</string>
+    <string name="plot">Plot</string>
+    <string name="air_date">Air Date</string>
+    <string name="previous">Previous</string>
+    <string name="next">Next</string>
+    <string name="runtime">Runtime</string>
+    <string name="country_of_origin">Country of Origin</string>
+    <string name="internet_loss">No internet</string>
+    <string name="desc">A one stop portal for all things TV</string>
+    <string name="rating">Rating</string>
+
+
+</resources>
