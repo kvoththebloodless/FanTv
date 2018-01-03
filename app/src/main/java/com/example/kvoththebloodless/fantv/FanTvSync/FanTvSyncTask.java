@@ -13,6 +13,14 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+
+/*
+ * FanTvSyncTask.java
+ *
+ * @version $Id: FanTvSyncTask.java v1.0 12/25/16 19:15:00$
+ * Revisions
+ */
+
 package com.example.kvoththebloodless.fantv.FanTvSync;
 
 import android.content.ContentValues;
@@ -56,6 +64,13 @@ public class FanTvSyncTask {
     public static String VIDEO_URL1, IMG_URL1;
     static String TVDB_TOKEN;
 
+    
+    /**
+     * startSync()
+     * Determines the type of sync based on the tag and starts it
+     * @param Context The context of the running application
+     * @param TAG the type of sync to be activated.
+     */
     synchronized public static void startSync(final Context context, int TAG) {
         c = context;
         POPULAR_URL = c.getString(R.string.popular_url, Utility.TMDB_API_KEY);
@@ -100,7 +115,10 @@ public class FanTvSyncTask {
         }
 
     }
-
+    /**
+     * getTvdbToken()
+     * Fetches the token to be used for communication with the online Tvdb API
+     */
     public static void getTvdbToken() {
 
         JSONObject js = new JSONObject();
@@ -149,8 +167,12 @@ public class FanTvSyncTask {
 
         VolleySingleton.getInstance(c).addToRequestQueue(jsonObjReqtoken);
     }
-
-    public static void pullPreList(final String URL, final String TAG) {
+    /**
+     * pullPreList()
+     * Retrieves the list of trending and popular Tvshows
+     * @param URL The URL pertaining to the JSON result of the trending shows
+     */
+    public static void pullPreList(final String URL) {
         JsonObjectRequest prelistreq = new JsonObjectRequest(GET, URL, null, new Response.Listener<JSONObject>() {
             @Override
             public void onResponse(JSONObject response) {
@@ -162,7 +184,7 @@ public class FanTvSyncTask {
                         return;
                     for (int i = 0; i < jarr.length(); i++) {
                         JSONObject show = jarr.getJSONObject(i);
-                        pullDetail(show.getInt(c.getString(R.string.tmdb_id)), TAG);
+                        pullDetail(show.getInt(c.getString(R.string.tmdb_id)));ontext The context of the running application
                     }
                 } catch (Exception e) {
                     Log.e(URL, "" + e);
@@ -181,7 +203,11 @@ public class FanTvSyncTask {
 
 
     }
-
+  /**
+     * resolveGenre()
+     * Seperates Genre collections into seperate Genres
+     * @param jsonArray The JSONArray result
+     */
     static String resolveGenre(JSONArray jsonArray) throws JSONException {
         String genre = "";
         for (int i = 0; i < jsonArray.length(); i++) {
@@ -189,8 +215,12 @@ public class FanTvSyncTask {
         }
         return genre;
     }
-
-    public static void pullDetail(final int id, final String TAG) {
+  /**
+     * pullDetail()
+     * Retrieves the details of the tv show
+     * @param id The TMDB id of the tv show in question.
+     */
+    public static void pullDetail(final int id) {
 
 
         JsonObjectRequest pulldetreq = new JsonObjectRequest(GET, c.getString(R.string.Popular_Detailed, id, Utility.TMDB_API_KEY), null, new Response.Listener<JSONObject>() {
@@ -202,7 +232,7 @@ public class FanTvSyncTask {
                     cv.put(TvContract.General.SHOW_NAME, response.getString("original_name"));
                     cv.put(TvContract.General.OVERVIEW, response.getString("overview"));
                     cv.put(TvContract.General.GENRE, resolveGenre(response.getJSONArray("genres")));
-                    cv.put(TvContract.General.TYPE, TAG);
+                    cv.put(TvContract.GURL The URL pertaining to the JSON result of the trending showseneral.TYPE, TAG);
                     cv.put(TvContract.General.ORIGIN, response.getJSONArray("origin_country").join(" | "));
                     cv.put(TvContract.General.STATUS, response.getString("status"));
                     cv.put(TvContract.General.RUNTIME, response.getJSONArray("episode_run_time").join(","));
@@ -240,15 +270,23 @@ public class FanTvSyncTask {
 
     }
 
-
+    /**
+     * For later purposes
+     */
     public static ContentValues pullLatestList() {
         return null;
     }
-
+    /**
+     * For later purposes
+     */
     public static Cursor pullSearchList() {
         return null;
     }
-
+/**
+     * pullTvChanges()
+     * Retrieves the changes made to the show as per the periodic sync time
+     * @param id The TMDB id of the tv show in question.
+     */
     public static void pullTvChanges(final int id) {
 
         final Cursor cursor = c.getContentResolver().query(TvContract.General.CONTENT_URI_SINGLE,
@@ -305,7 +343,12 @@ public class FanTvSyncTask {
         }
 
     }
-
+/**
+     * formatToSec()
+     * Returns the time as per the date in miliseconnds.
+     * @param airdate The date of airing of the episode.
+     * @return time in miliseconds.
+     */
     static long formatToSec(String airdate) {
         try {
             SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd");
@@ -323,7 +366,13 @@ public class FanTvSyncTask {
         }
 
     }
-
+    /**
+     * pushEpInfo()
+     * pushes the info retrieved from API into the database through the content resolver.
+     * @param response THe JSONObject response from the API.
+     * @param id the TMDB id of the show.
+     * @param s0no the season number of the show.
+     */
     public static void pushEpInfo(final JSONObject response, final int id, final int s0no) {
 
 
@@ -357,7 +406,14 @@ public class FanTvSyncTask {
 
     }
 
-
+    /**
+     * pullVideo()
+     * pulls the video URL for the particular episode.
+     * @param tvid The TMDB ID of the show.
+     * @param s0no the seasonnumber.
+     * @param epno The episode number of the season.
+     * @param epid the episode id of the season.
+     */
     public static void pullVideo(int tvid, int s0no, int epno, final int epid) {
         JsonObjectRequest vidreq = new JsonObjectRequest(
                 Request.Method.GET, c.getString(R.string.url_tmdb) + tvid + "/season/" + s0no + "/episode/" + epno + "/videos?api_key=d0fa8157cea46d952cb9578970c82542&language=en-US"//add tvid s0no and epno
@@ -391,8 +447,15 @@ public class FanTvSyncTask {
         });
         VolleySingleton.getInstance(c).addToRequestQueue(vidreq);
     }
-
-
+   /**
+     * pullImages()
+     * pulls the ImageUrl URL for the particular episode.
+     * @param tvid The TMDB ID of the show.
+     * @param s0no the seasonnumber.
+     * @param epno The episode number of the season.
+     * @param epid the episode id of the season.
+     */
+   
     public static void pullImages(int tvid, int s0no, int epno, final int epid) {
         JsonObjectRequest jsonObjReqim = new JsonObjectRequest(
                 Request.Method.GET, "https://api.themoviedb.org/3/tv/" + tvid + "/season/" + s0no + "/episode/" + epno + "/images?api_key=d0fa8157cea46d952cb9578970c82542"//add tvid s0no and epno
@@ -429,7 +492,12 @@ public class FanTvSyncTask {
 
     }
 
-
+   /**
+     * checkPullBanner()
+     * Initiates the retrieval of the banner image from TVDB api if not present already
+     * @param tvdbid the tvdbidof the show.
+     * @param tmdbid the tmdbid of the show.
+     */
     public static void checkPullBanner(final int tvdbid, final int tmdbid) {
         if (TVDB_TOKEN == null) {
             getTvdbToken();
@@ -446,11 +514,18 @@ public class FanTvSyncTask {
 
 
     }
-
+   /**
+     * pullNewsfeed()
+     * For future development
+     */
     public static Cursor pullNewsfeed() {
         return null;
     }
-
+   /**
+     * pullTvdbId()
+     * pulls the tvdb id for the show.
+     * @param id the TMDB id of the show.
+     */
 
     public static void pullTvdbId(final int id) {
         JsonObjectRequest tvdbidreq = new JsonObjectRequest(GET, c.getString(R.string.url_tmdb) + id + "/external_ids?api_key=" + Utility.TMDB_API_KEY + "&language=en-US", null, new Response.Listener<JSONObject>() {
@@ -477,7 +552,12 @@ public class FanTvSyncTask {
         });
         VolleySingleton.getInstance(c).addToRequestQueue(tvdbidreq);
     }
-
+   /**
+     * pullBanner()
+     * pulls the Banner image based on the tvdbid.
+     * @param tvdbid 
+     * @param tmdbid
+     */
     public static void pullBanner(int tvdbid, final int tmdbid) {
 
 
